@@ -16,6 +16,9 @@ void setup() {
 
 Serial.begin( 115200 );
 
+#ifndef BD_FAMILY
+ #define BD_FAMILY "UNKNOWN"
+#endif
 Serial.print("\n7 Segment "); Serial.print( BD_FAMILY ); Serial.println(" Demo.");
 Serial.print( "CS on pin " ); Serial.print( dsp.getCS() );
 Serial.print( " : DIN -> ");  Serial.print( dsp.getDIN() );
