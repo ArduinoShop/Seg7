@@ -1,0 +1,15 @@
+{
+  "name": "Seg7",
+  "keywords": "7 Segment" "LED" "MAX7219",
+  "description": "A library for MAX7219 7 Segment LED displays",
+  "repository":
+  {
+    "type": "git",
+    "url": "https://github.com/ArduinoShop/Seg7/Seg7.git"
+  },
+  "frameworks": "arduino",
+  "platforms":
+  [
+    "atmelavr" "esp32" "esp8266"
+  ]
+}

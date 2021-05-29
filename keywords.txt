@@ -1,0 +1,27 @@
+###########################################
+# Syntax Coloring Map For Seg7
+###########################################
+
+###########################################
+# Datatypes (KEYWORD1)
+###########################################
+
+Seg7	KEYWORD1
+
+###########################################
+# Methods and Functions (KEYWORD2)
+###########################################
+init	KEYWORD2
+begin	KEYWORD2
+clear	KEYWORD2
+stg		KEYWORD2
+hex		KEYWORD2
+seq		KEYWORD2
+DELAY	KEYWORD3
+setchar	KEYWORD2
+num		KEYWORD2
+brightness	KEYWORD2
+
+###########################################
+# Constants (LITERAL1)
+###########################################
