@@ -5,7 +5,8 @@
 #include <Arduino.h>
 
 #define DELAY( x ) delay( x )
-	
+#define BD_FAMILY " !! UNKNOWN BOARD !! "
+ 	
 #ifdef ESP32
 	#define MAX7219_DIN	18
 	#define MAX7219_CS	23
@@ -30,10 +31,10 @@
 #endif
 
 #ifdef ESP8266
-	#define MAX7219_DIN	D7  //  13
-	#define MAX7219_CS	D8  //  15
-	#define MAX7219_CLK	D5  //  14
-//	#define BD_FAMILY "ESP8266"
+	#define MAX7219_DIN	13 	// D7
+	#define MAX7219_CS	15  // D8
+	#define MAX7219_CLK	14  // D5                                                                                                                                                                         
+	#define BD_FAMILY "ESP8266"
 #endif
 
 #define DecodeMODE_REG	0x09

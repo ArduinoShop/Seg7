@@ -2,10 +2,6 @@
 
 Seg7::Seg7( uint8_t b, uint8_t CSpin, uint8_t DINpin, uint8_t CLKpin, uint8_t digs )	{ // Constructor / init
 
-#ifdef LGT8F328
-printf("LGT8F328 defined\n");
-#endif
-
 CS = CSpin;  DIN = DINpin;  CLK = CLKpin;
 
   pinMode( DINpin, OUTPUT);
